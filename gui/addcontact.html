@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+        New Contact Details 
+        </title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        </head>
+    <body>
+        <h1>
+            Adding phone information &#128222
+        </h1>
+        <form action="new_contact.php", method="POST">
+            <label for="phones">Choose a type of number:</label>
+            <select name="phones" id="phones">
+              <option value="mobile">Mobile</option>
+              <option value="work">Work</option>
+              <option value="home">Home</option>
+            </select>
+            <br><br>
+            Mobile number : <input type=text name=number>
+            <br><br>
+            Email address : <input type=text name=email> 
+            <input type="submit" value="Submit">
+          </form>
+          
+	<a href="index.html"><h2>Go back to Home</h2></a>
+    </body>
+</html>

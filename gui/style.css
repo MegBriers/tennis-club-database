@@ -1,0 +1,45 @@
+/* 
+ * Adapted from : 
+ * Simple CSS style for Simple MariaDB PHP Example 
+ * 
+ * @author jonl 
+ */
+
+h1, h2, p, th, tr, h3 {font-family: serif}
+h1, h3 {background-color: #0c8129; color: white;}
+th {background-color: #ACDCEF}
+
+table{
+ border-color: #ededed;
+ background-color: #ededed;
+ border-left-width: thin;
+ border-right-width: thin;
+ border-top-width: thin;
+ border-bottom-width: thin;
+ table-layout:auto
+}
+
+p{
+    background: #ededed;
+    margin-left: 10px auto; 
+    width:250px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+a {font-family:serif; text-decoration:none}
+
+form {background:#1bb641c0;
+    margin-left: 10px auto; 
+    width:250px;
+    border-radius: 25px;
+    padding: 20px;
+    }
+
+body {
+    background-image: url("tennis_club.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 375px bottom;
+}
